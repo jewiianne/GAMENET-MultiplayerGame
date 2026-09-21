@@ -177,6 +177,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MultiplayerMenu
   ShowTopMostFoldoutHeaderGroup: 1
+  menuUI: {fileID: 1862957191}
+  joinCodeText: {fileID: 1073843657}
+  statusText: {fileID: 516517741}
 --- !u!4 &25119366
 Transform:
   m_ObjectHideFlags: 0
@@ -544,8 +547,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.33506525, y: 0.6225426, z: -0.33486453, w: -0.62292683}
-  m_LocalPosition: {x: 47.001293, y: 50.55752, z: -0.0013003349}
+  m_LocalRotation: {x: -0.54089475, y: -0.0007649958, z: 0.000490278, w: -0.84108984}
+  m_LocalPosition: {x: -4.1733584, y: 64.05155, z: -42.523872}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
