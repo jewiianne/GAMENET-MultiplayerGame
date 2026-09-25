@@ -6,12 +6,18 @@ using Unity.Netcode.Transports.UTP;
 public class MultiplayerMenu : NetworkBehaviour
 {
     //hide ui
-    [SerializeField] GameObject menuUI;
+    public GameObject menuUI;
     //store clients input field
     [SerializeField] TMP_InputField joinCodeText;
     [SerializeField] TMP_Text statusText;
-
     private const string WebGLConnectionType = "wss";
+
+    public static MultiplayerMenu Instance;
+
+    void Awake()
+    {
+        Instance = this;
+    }
     public void StartHost()
     {
 
