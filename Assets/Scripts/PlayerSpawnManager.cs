@@ -10,10 +10,10 @@ public class PlayerSpawnManager : NetworkBehaviour
     //runs when the player object spawns by netcode
     public override void OnNetworkSpawn()
     {
-        if (IsOwner && MultiplayerMenu.Instance != null)
-        {
-            MultiplayerMenu.Instance.menuUI.SetActive(false);
-        }
+        //if (IsOwner && MultiplayerMenu.Instance != null)
+        //{
+        //    MultiplayerMenu.Instance.menuUI.SetActive(false);
+        //}
         
         //check if this instance is not the server
         if(!IsServer)
